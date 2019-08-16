@@ -27,6 +27,7 @@ public class RoleInfoServiceImpl implements RoleInfoService {
     @Transactional
     public boolean removeUserRole(UserRoleDTO userRoleDTO){
         return  this.roleInfoMapper.removeUserRole(userRoleDTO)>0;
-        //??????
+
     }
+    //我是李彦东
 }
